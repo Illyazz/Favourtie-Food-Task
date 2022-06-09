@@ -1,19 +1,34 @@
 footer{
     display: flex;
 } 
+
 nav{
     position: sticky;
     top:0;
 }
+
+.logo{
+    border-radius: 50%;
+    margin-left: 20px;
+}
+h1{
+    color: #EC910C;
+}
 /* .stars {
     display:flex;
 } */
+
+.btn-outline-warning{
+    background-color: #EC910C;
+    color: white;
+}
 
 .checked{
     color: yellow;
 }
 a:hover{
     font-size: 20px;
+    background-color: #EC910C;
 }
 .card-img-top {
     width: 100%;
@@ -37,9 +52,11 @@ h2{
     text-align:right;
 } */
 
-main{
-    /* height: 700px; */
-}
+/* img{
+
+    width: 300px;
+    height: 300px;
+} */
 
 @media only screen and (max-width: 400px){
     header {
@@ -58,10 +75,19 @@ main{
     #sectionrd{
         display: none;
     }
+    .card {
+        position:static;
+    }
+}
 
+.carousel-border{
+    padding:50px;
+    /* height: 400px;
+    width: 400px; */
 }
 
 @media only screen and (min-width: 400px){
     #sectionLargeSize{
         display: none;
+    }
 }
